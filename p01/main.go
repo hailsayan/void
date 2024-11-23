@@ -11,10 +11,6 @@ func main() {
 func even() {
 	for i := 1000; i <= 2000; i += 2 {
 		fmt.Println(i)
-		if i == 2000 {
-			break
-			fmt.Println("done")
-		}
-
 	}
+	fmt.Println("done")
 }
