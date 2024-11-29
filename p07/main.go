@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("enter a number: ")
 	fmt.Scan(&n)
 
-	if isPrime(n) {
+	if isPrime(n) == true {
 		fmt.Printf("%d is a prime number\n", n)
 	} else {
 		fmt.Printf("%d is not a prime number\n", n)
